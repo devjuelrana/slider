@@ -1,0 +1,133 @@
+/*
+1.top header css
+2.main_menu_area css
+3.slider_area css
+4.who_we_are css
+5.solution_single_item css
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*====custom css====*/
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+    color: #626262;
+    font-weight: 400;
+	line-height:1.6;
+    overflow-x: hidden;
+}
+p{
+	font-style:normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a, 
+h6 a {
+	font-family: 'Saira', sans-serif;
+	font-size:21px;
+	color:#232323;
+}
+ul { 
+	list-style: none; 
+}
+ul li { 
+	list-style: none;
+}
+a { 
+color:#626262;
+text-decoration: none;
+}
+a:hover{
+	
+}
+
+
+
+
+/* ===slider_area css=== */
+
+ .slider_image {
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .slider_content {
+    height: 650px;
+    width: 100%;
+    position: relative;
+   /* background: rgba(0, 0, 0, 0.5);*/
+
+ }
+ .slider_content_inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+ }
+.slider_content_text {
+    text-align: center;
+}
+.slider_content_text h4 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.slider_content_text h2 {
+    font-size: 71px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.slider_content_text p {
+    color: #fff;
+}
+.slider_content_text a {
+    padding: 10px 30px;
+    display: inline-block;
+    background: #005aff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-right: 25px;
+    transition: .5s all ease;
+ }
+ .slider_content_text a:hover {
+    background-color: #fff;
+    color: #24a3d8;
+
+}
+.slider_btn_right a {
+    padding: 10px 30px;
+    display: inline-block;
+    background: #005aff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-right: 25px;
+    transition: .5s all ease;
+ }
+ .slider_btn_right a:hover {
+    background-color: #fff;
+    color: #24a3d8;
+
+}
+.slider_content.left {
+    margin-left: 200px;
+}
+.slider_content.right {
+    margin-left: -200px;
+}

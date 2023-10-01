@@ -1,0 +1,249 @@
+/*
+1.top header css
+2.main_menu_area css
+3.slider_area css
+4.who_we_are css
+5.solution_single_item css
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*====custom css====*/
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+    color: #626262;
+    font-weight: 400;
+	line-height:1.6;
+    overflow-x: hidden;
+}
+p{
+	font-style:normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a, 
+h6 a {
+	font-family: 'Saira', sans-serif;
+	font-size:21px;
+	color:#232323;
+}
+ul { 
+	list-style: none; 
+}
+ul li { 
+	list-style: none;
+}
+a { 
+color:#626262;
+text-decoration: none;
+}
+a:hover{
+	
+}
+
+/*===top_header_area css===*/
+
+.top_header_area {
+    padding: 12px 0;
+    background-color: #ff3c00;
+}
+.top_left_address span,
+.top_left_address a {
+    margin-right: 20px;
+    color: #fff;
+}
+
+.top_left_address span i {
+    margin-right: 2px;
+    color: #fff;
+}
+.top_left_address a i {
+    margin-right: 4px;
+    color: #fff;
+}
+
+/*===top_right_info css===*/
+.top_right_info {
+    text-align: right;
+}
+.top_right_info a {
+    margin-left: 22px;
+    color: #fff;
+}
+.top_right_info a i {
+    color: #0c3eb9;
+    margin-right: 4px;
+    color: #fff;
+}
+
+/*===main_menu_css===*/
+.logo_area {
+    margin-top: 30px;
+}
+.main_menu_area {}
+.main_menu {}
+.techit_menu_item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main_menu ul {
+    text-align: right;
+    list-style: none;
+}
+.main_menu ul li {
+    display: inline-block;
+}
+.main_menu ul li a {
+    display: block;
+    margin: 33px 21px;
+    color: #4a4c59;
+    text-transform: capitalize;
+    transition: .3s all ease;
+}
+.main_menu ul li a:hover {
+    color: #ff3c00;
+}
+.main_menu ul li:last-child a {
+    margin-right: 0;
+}
+.techit_search_btn {
+    background: #ff3c00;;
+    display: inline-block;
+    height: 46px;
+    width: 46px;
+    text-align: center;
+    line-height: 3.2;
+    border-radius: 50%;
+   margin: 0 20px;
+}
+.techit_search_btn i {
+    color: #fff;
+    font-size: 18px;
+}
+.techit_menu_btn a {
+    background: #ff3c00;
+    display: inline-block;
+    padding: 9px 21px;
+    text-transform: capitalize;
+    color: #fff;
+    border-radius: 4px;
+    transition: .5s all ease;
+    border: 1px solid #ff3c00;
+  
+}
+.techit_menu_btn a:hover {
+    background-color: #fff;
+    color: #ff3c00;
+    border: 1px solid #ff3c00;
+}
+
+
+/* ===slider_area css=== */
+
+ .slider_image {
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .slider_content {
+    height: 700px;
+    width: 64%;
+    position: relative;
+   
+
+ }
+ .slider_content_inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+ }
+.slider_content_text {
+   margin-left: 180px;
+}
+.slider_content_text h4 {
+    font-size: 24px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    border-top: 1px solid #f00;
+    width: 33%;
+}
+.slider_content_text h2 {
+    font-size: 71px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.slider_content_text p {
+    color: #fff;
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+
+.slider_btn a {
+    padding: 15px 65px 15px 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: .5s all ease;
+    position: relative;
+    text-transform: uppercase;
+    background-color: #ff3c00;
+    border-radius: 10px;
+   
+ }
+
+ .slider_btn a:hover {
+     color: #ff3c00;
+     background-color: #fff;
+ }
+
+.slider_btn a i {
+    display: inline-block;
+    line-height: 1.8;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    transition: .5s all ease;
+    font-size: 22px;
+}
+.slider_btn a:hover i {
+    color: #ff3c00;
+}
+.slider_btn .left_btn {
+	padding: 15px 65px 15px 20px;
+    display: inline-block;
+    color: #ff3c00;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: .5s all ease;
+    position: relative;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.slider_btn .left_btn:hover {
+	color: #fff;
+    background-color: #ff3c00;
+}
+.slider_btn .left_btn:hover i {
+    color: #fff;
+}

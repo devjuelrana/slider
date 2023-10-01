@@ -1,0 +1,145 @@
+/*
+1.top header css
+2.main_menu_area css
+3.slider_area css
+4.who_we_are css
+5.solution_single_item css
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*====custom css====*/
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+    color: #626262;
+    font-weight: 400;
+	line-height:1.6;
+}
+p{
+	font-style:normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a, 
+h6 a {
+	font-family: 'Saira', sans-serif;
+	font-size:21px;
+	color:#232323;
+}
+ul { 
+	list-style: none; 
+}
+ul li { 
+	list-style: none;
+}
+a { 
+color:#626262;
+text-decoration: none;
+}
+a:hover{
+	
+}
+
+
+
+
+/* ===slider_area css=== */
+
+ 
+.tit_slider_content {
+    background-size: cover;
+}
+.tit_slider_content_inner {
+    height: 750px;
+    position: relative;
+    width: 93%;
+    margin: auto;
+}
+.tit_slider_content_posi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 100%;
+}
+
+.tit_slider_content_text {
+
+}
+
+.tit_slider_content_text h3{
+	font-size:24px;
+	color:#fff;
+}
+.tit_slider_content_text h2{
+	font-size:100px;
+	color:#fff;	
+}
+.tit_slider_content_text h2 span{
+	color:#f00;	
+}
+.tit_slider_content_text p{
+	font-size:20px;
+	color:#fff;		
+}
+.tit_slider_btn a{
+	background:#fff;
+	color:#000;
+	font-size:20px;
+	display:inline-block;
+	padding:9px 15px;
+	border-radius:5px;
+	transition: .5s;
+}
+.tit_slider_btn a:hover {
+	background: #ff3c00;
+	color: #fff;
+}
+
+
+/*slider left style*/ 
+
+.tit_slider_content_text.text-left {
+    width: 62%;
+	margin-right:auto;
+}
+.tit_slider_content_text.text-left p {
+    width: 65%;
+	margin-right:auto;
+}
+
+
+/* slider right style */
+
+.tit_slider_content_text.text-right {
+    width: 62%;
+	margin-left:auto;
+}
+.tit_slider_content_text.text-right p {
+    width: 65%;
+	margin-left:auto;
+}
+
+
+
+
+.text-left{
+	text-align:left;
+}
+
+.text-right{
+	text-align:right;
+}

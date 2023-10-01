@@ -1,0 +1,316 @@
+/*
+
+1. Top Header Css
+2. Main Menu Css
+3. mons Slider Area
+4. About Area
+5. Service Area
+6. Process Area
+7. Procejet Area
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+
+/********** Typhography **********/
+body {
+	margin: 0;
+    margin: auto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height:1.6;
+	font-family: 'Roboto', sans-serif;
+    letter-spacing: .2;
+	color: #798490;
+    overflow-x: hidden;
+}
+
+
+p {
+	font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #181818;
+}
+ul {
+	list-style: none;
+	margin: 0;
+}
+ul li {
+	list-style: none;
+}
+ul li a,
+a { 
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover {
+    color: #FFF;
+}
+
+
+
+
+/********** Top Header Area Css **********/
+
+/* Section monsle Css */
+
+.mons-slider-content
+
+.section-monsle-inner {
+    width: 650px;
+    margin: auto;
+}
+.section-monsle-inner h1 {
+    font-size: 18px;
+    line-height: .5;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0c3eb9;
+    position: relative;  
+    text-indent: 4px;
+    margin-left: 60px;
+}
+.section-monsle-inner h1::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: -56px;
+    width: 12px;
+    height: 5px;
+    background: #0c3eb9;
+    border-radius: 6px;
+}
+.section-monsle-inner h1::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: -37px;
+    width: 30px;
+    height: 5px;
+    background: #0c3eb9;
+    border-radius: 6px;
+}
+.section-monsle-inner h2 { 
+    font-size: 50px;
+    font-weight: 700;
+    color: #232323;
+}
+.section-monsle-inner h2 span {
+    text-transform: uppercase;
+}
+.section-monsle-inner p {
+    width: 520px;
+    margin-top: 24px;
+    color: #626262;
+}
+/* End Section monsle Css */
+
+/* top header css */
+.top-header-area {
+    background: #F00;
+    border-bottom: 1px solid #f2f2f3;
+    padding: 12px 0;
+    color: #FFF;
+}
+
+/* top left address */
+
+.top-left-address span {
+	margin-right: 20px;
+}
+.top-left-address span i {
+	color: #FFF;
+	margin-right: 2px;
+}
+.top-left-address a i {
+	color: #FFF;
+    margin-right: 4px;
+}
+
+/* top right info */
+.top-right-info {
+	text-align: right;
+}
+.top-right-info a {
+	margin-left: 22px;
+    color: #FFF;
+}
+.top-right-info a i {
+	font-size: 16px;
+	color: #FFF;
+	margin-right: 10px;
+}
+/****** End Top Header ******/
+
+
+
+
+/********** Main Menu Css *******/
+
+.main-menu-area {
+    border-bottom: 1px solid #f2f2f3;
+}
+
+/* logo css */
+.mons-logo img {
+    margin-top: 15px;
+}
+
+/* main menu */
+.mons-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main-menu {}
+.main-menu ul {
+	text-align: right;
+}
+.main-menu ul li {
+	display: inline-block;
+}
+.main-menu ul li a {   
+    font-size: 18px;
+    text-transform: capitalize;
+    margin: 33px 11px;
+    color: #181818;
+    display: block;
+    transition: .5s;
+}
+.main-menu ul li:hover a {
+	color: #4834d4;
+}
+.main-menu ul li:last-child a {
+	margin-right: 0px;
+}
+/* menu button css */
+.mons-menu-item .menu-btn a {
+	display: inline-block;
+	font-size: 16px;
+    text-transform: capitalize;
+    color: #181818;
+    padding: 9px 28px;
+    border: 1px solid #181818;
+    transition: .6s;
+    margin-left: 20px;
+}
+.mons-menu-item .menu-btn a:hover {
+    border: 1px solid transparent;
+	background: #181818;
+    color: #FFF;
+}
+/***** End Main Menu *****/
+
+
+/****** mons Slider Area ******/
+.mons-slider-area {
+    background-position-y: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mons-slider-wrap {
+    height: 700px;
+    display: table;
+    width: 100%;
+}
+.mons-slider-content {
+    position: relative;
+    z-index: 1;
+}
+.mons-slider-content::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(44 58 68 / 83%);
+    z-index: -1;
+}
+.mons-slider-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.mons-slider-content-text {
+    text-align: center;
+}
+.mons-slider-content-text h2 {
+    font-size: 65px;
+    font-weight: 900;
+    color: #FFF;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.mons-slider-content-text h2 span {
+    color: #ff8411;
+}
+.mons-slider-content-text p {
+    font-size: 18px;
+    font-weight: 100;
+    color: #FFF;
+    width: 40%;
+    margin: auto;
+}
+.mons-slider-button .mons-button {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #FFF;
+    padding: 14px 35px;
+    background: #F00;
+    border-radius: 30px;
+    transition: .6s;
+    margin-top: 28px;
+}
+.mons-slider-button .mons-button:hover {
+    background: #FFF;
+    color: #000;
+}
+
+
+/* text align left */
+.mons-slider-content-text.text-align-left {
+    text-align: left;
+    margin-left: 45px;
+}
+.mons-slider-content-text.text-align-left h2 {
+    width: 60%;
+    margin-right: auto;
+}
+.mons-slider-content-text.text-align-left p {
+    margin-left: 0;
+}
+.mons-slider-content-text.text-align-left .mons-slider-button .mons-button {
+    margin: 28px 2px 0px;
+}
+
+/* text align right */
+.mons-slider-content-text.text-align-right {
+    text-align: right;
+    margin-right: 45px;
+}
+.mons-slider-content-text.text-align-right h2 {
+    width: 60%;
+    margin-left: auto;
+}
+.mons-slider-content-text.text-align-right p {
+    margin-right: 0;
+}
+
+/****** End mons Slider Area ******/ 
+
+
